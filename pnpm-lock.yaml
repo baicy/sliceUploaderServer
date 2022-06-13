@@ -2,17 +2,17 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vercel/node': ^2.1.0
-  body-parser: ^1.20.0
   express: ^4.18.1
   formidable: ^2.0.1
   fs-extra: ^10.1.0
+  mime: ^3.0.0
 
 dependencies:
   '@vercel/node': registry.npmmirror.com/@vercel/node/2.1.0
-  body-parser: registry.npmmirror.com/body-parser/1.20.0
   express: registry.npmmirror.com/express/4.18.1
   formidable: registry.npmmirror.com/formidable/2.0.1
   fs-extra: registry.npmmirror.com/fs-extra/10.1.0
+  mime: registry.npmmirror.com/mime/3.0.0
 
 packages:
 
@@ -440,6 +440,14 @@ packages:
     name: mime
     version: 1.6.0
     engines: {node: '>=4'}
+    hasBin: true
+    dev: false
+
+  registry.npmmirror.com/mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mime/-/mime-3.0.0.tgz}
+    name: mime
+    version: 3.0.0
+    engines: {node: '>=10.0.0'}
     hasBin: true
     dev: false
 
