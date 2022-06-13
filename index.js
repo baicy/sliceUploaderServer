@@ -176,6 +176,10 @@ app.post('/download/*', (req, res) => {
   }
 })
 
+app.get('/', (req, res) => {
+  res.send('Hello vercel')
+})
+
 const server = app.listen(8080, () => {
   console.log('server start, run on http://localhost:8080/')
   if (server.address().address === '::') {
